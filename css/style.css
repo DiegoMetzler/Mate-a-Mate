@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+main h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main h2{
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+
+section iframe{
+    width: 100%;
+}
+
+form{
+    color: white;
+}
+
+p{
+    font-size: 25;
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, a{
+    color: white;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+
+.menu{
+    padding: 8px 30px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(84, 84, 119, 0.34);
+
+
+}
+
+
+.menu ul{
+    display: inline-block;
+    padding: 8px 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+
+.menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: end;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+
+section figure p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+section figure{
+    text-align: center;
+}
+
+section figure a{
+    text-align: center;
+    color: white;
+}
+
+section h1{
+    color: white;
+}
+
+section h2{
+    color: white;
+}
+
+main section iframe{
+    padding: 0px 450px;
+}
+
+main section p{
+    text-align: center;
+}
+
+.bg-pattern{
+    background-image: url(../imagenes/background/fondos-abstractos-para-paginas-web-para-fondo-celular-en-hd-12.jpg);
+    background-attachment: fixed;
+}
+
+/* box model */
+.container{
+    background-color: rgba(68, 63, 106, 0.619);
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 50px auto;
+    border: solid white 2px;
+
+}
+
+
+footer img{
+    width: 80px;
+}
+
+.combos-unicos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+    .productos{
+    width: 30%;
+    }
+
+    .productos img{
+        width: 70%;
+    }
+
+.productos-generales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+    .productos-generales figure img{
+    width: 50%;
+    }
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,20vh);
+    grid-template-areas: 
+    "foto-1"
+    "foto-2"
+    "foto-3"
+    "foto-4"
+    "foto-5"
+    "foto-6";
+    gap: 3px;
+
+}
+
+.foto-1{
+    grid-area: foto-1;
+}
+
+.foto-2{
+    grid-area: foto-2;
+}
+
+.foto-3{
+    grid-area: foto-3;
+}
+
+.foto-4{
+    grid-area: foto-4;
+}
+
+.foto-5{
+    grid-area: foto-5;
+}
+
+.foto-6{
+    grid-area: foto-6;
+}
+
+#galeria img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (width >= 550px){
+    #galeria{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(4,25vh);
+        grid-template-areas: 
+        "foto-1 foto-2"
+        "foto-1 foto-3"
+        "foto-1 foto-4"
+        "foto-5 foto-6";
+        gap: 3px;
+    }
+}
+
+@media (width >= 980px){
+    #galeria{
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: repeat(3,35vh);
+        grid-template-areas:
+        "foto-1 foto-2 foto-3"
+        "foto-1 foto-4 foto-3"
+        "foto-1 foto-5 foto-6";
+        gap: 3px;
+    }
+}
+
+
+@media (width < 870px){
+    .bg-pattern{
+        width: 100%;
+    }
+    
+    .combos-unicos{
+        flex-direction: column;
+    }
+
+    .combos-unicos figure.productos{
+        width: 100%;
+    }
+}
