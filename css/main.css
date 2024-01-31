@@ -213,6 +213,11 @@ section figure a {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+  margin-top: 30px;
+}
+.productos-generales p {
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 .productos-generales figure img {
   width: 50%;
@@ -231,6 +236,15 @@ section figure a {
 }
 .productos img {
   width: 70%;
+}
+.productos p {
+  margin-top: 30px;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+  transition: all 0.6s;
+  cursor: pointer;
 }
 
 @media (width >= 550px) {
