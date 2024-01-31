@@ -1,0 +1,62 @@
+.container{
+    background-color: $secondaryColor;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 50px auto;
+    border: solid $white 2px;
+
+    h1, h2{
+        font-size: $xl;
+    }
+
+    p{
+        font-size: $md;
+    }
+}
+
+#galeria{
+    display: grid;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,20vh);
+    grid-template-areas: 
+    "foto-1"
+    "foto-2"
+    "foto-3"
+    "foto-4"
+    "foto-5"
+    "foto-6";
+    gap: 3px;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.foto-1{
+    grid-area: foto-1;
+}
+
+.foto-2{
+    grid-area: foto-2;
+}
+
+.foto-3{
+    grid-area: foto-3;
+}
+
+.foto-4{
+    grid-area: foto-4;
+}
+
+.foto-5{
+    grid-area: foto-5;
+}
+
+.foto-6{
+    grid-area: foto-6;
+}

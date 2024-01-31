@@ -1,0 +1,103 @@
+@media (width >= 550px){
+    #galeria{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(4,25vh);
+        grid-template-areas: 
+        "foto-1 foto-2"
+        "foto-1 foto-3"
+        "foto-1 foto-4"
+        "foto-5 foto-6";
+        gap: 3px;
+    }
+}
+
+@media (width >= 980px){
+    #galeria{
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: repeat(3,35vh);
+        grid-template-areas:
+        "foto-1 foto-2 foto-3"
+        "foto-1 foto-4 foto-3"
+        "foto-1 foto-5 foto-6";
+        gap: 3px;
+    }
+}
+
+
+@media (width < 500px){
+    .bg-pattern{
+        width: 100%;
+    }
+    
+    .combos-unicos{
+        flex-direction: column;
+    }
+
+    .navbar-brand{
+        width: 30px;
+    }
+
+    .imagen-principal{
+        width: 100%;
+    }
+
+    .combos-unicos figure.productos{
+        width: 100%;
+    }
+}
+
+@media (width < 700px){
+    .bg-pattern{
+        width: 100%;
+    }
+    
+    .productos-generales{
+        flex-direction: column;
+    }
+
+    .combos-unicos figure{
+        width: 100%;
+    }
+}
+
+
+@media (width < 870px){
+    .bg-pattern{
+        width: 100%;
+    }
+    
+    .container{
+        flex-direction: row;
+    }
+}
+
+@media (width < 870px){
+        .bg-pattern{
+            width: 100%;
+        }
+        
+        .grilla{
+            flex-direction: row;
+        }
+}
+
+@media (width < 870px){
+    .bg-pattern{
+        width: 100%;
+    }
+    
+    .mapa{
+        width: auto;
+    }
+}
+
+@media(max-width:990px){
+    .footer-row{
+        text-align: center;
+    }
+
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

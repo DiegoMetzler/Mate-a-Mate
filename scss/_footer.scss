@@ -1,0 +1,52 @@
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: $footerColor;
+    padding: 20px 0;
+
+    &-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &-links{
+        width: 25%;
+        padding: 0 15px;
+        ul{
+            li{
+                a{
+                    font-size: $md;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: $black;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        
+        h4{
+            font-size: 20px;
+            font-weight: bold;
+            color: $footerLinkColor;
+            margin-bottom: 25px;
+            border-bottom: 2px solid $footerLinkColor;
+            display: inline-block;
+        }
+    }
+}
+
+
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: $white;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: $footerLinkColor;
+}

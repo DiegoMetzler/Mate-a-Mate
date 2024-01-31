@@ -1,0 +1,83 @@
+//nav- menu
+.menu{
+    background-color: $mainColor;
+    padding: 8px 30px;
+    top: 0;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    ul{
+        display: inline-block;
+        padding: 8px 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        li{
+            display: inline-block;
+            margin-right: 20px;
+            justify-content: center;
+            flex-direction: row;
+            align-items: end;
+            a{
+                color: $white;
+                font-size: $lg;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+form{
+    color: $white;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+main{
+    section{
+        p{
+            text-align: center;
+        }
+        iframe{
+            padding: 0px 450px;
+        }
+    }
+}
+
+section{
+    h1{
+        color: $white;
+    }
+
+    h2{
+        color: $white;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    figure{
+        text-align: center;
+
+        p{
+            text-align: center;
+            font-size: $md;
+            margin-top: 10px;
+        }
+
+        a{
+            text-align: center;
+            color: $white;
+        }
+    }
+}
+
+.bg-pattern{
+    background-image: url(../imagenes/background/fondos-abstractos-para-paginas-web-para-fondo-celular-en-hd-12.jpg);
+    background-attachment: fixed;
+}

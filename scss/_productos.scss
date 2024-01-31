@@ -1,0 +1,26 @@
+.productos-generales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    figure img{
+    width: 50%;
+    }
+}
+
+.combos-unicos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.productos{
+    width: 30%;
+
+    img{
+        width: 70%;
+    }
+}
