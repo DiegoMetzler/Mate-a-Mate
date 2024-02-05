@@ -49,31 +49,57 @@
     </header>
     <!-- ends presentation -->
     <main>
-      <!-- starts products -->
-      <section class="grilla">
-         <h1 class="text-bold">CONTACTO</h1>
-         <form action="envio.pgp" method="post" class="container">
-            <div>
-               <label for="nombre">Nombre</label>
-               <input type="text" id="nombre">
-            </div>
-            <div>
-               <label for="tel">Teléfono</label>
-               <input type="tel" id="tel">
-            </div>
-            <div>
-               <label for="email">E-mail</label>
-               <input type="email" id="email">
-            </div>
-            <div>
-               <label for="mensaje">Deje su mensaje</label>
-               <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <input type="reset" value="Cancelar">
-            <input type="submit" value="Enviar">
-         </form>
-      </section>
-      <!-- ends products -->
+      <!-- starts form -->
+      <section>
+        <div class="content">
+
+          <h2 class="logo">CONTACTO</h2>
+  
+          <div class="contact-wrapper animated bounceInUp">
+              <div class="contact-form">
+                  <h3>DEJA TU MENSAJE</h3>
+                  <form action="">
+                      <p>
+                          <label>NOMBRE COMPLETO</label>
+                          <input type="text" name="fullname">
+                      </p>
+                      <p>
+                          <label>CORREO</label>
+                          <input type="email" name="email">
+                      </p>
+                      <p>
+                          <label>TELEFONO</label>
+                          <input type="tel" name="phone">
+                      </p>
+                      <p>
+                          <label>MOTIVO</label>
+                          <input type="text" name="affair">
+                      </p>
+                      <p class="block">
+                         <label>MENSAJE</label> 
+                          <textarea name="message" rows="2"></textarea>
+                      </p>
+                      <p class="block">
+                          <button>
+                              ENVIAR
+                          </button>
+                      </p>
+                  </form>
+              </div>
+              <div class="contact-info">
+                  <h4>MAS INFORMACIÓN</h4>
+                  <ul>
+                      <li><i class="fas fa-map-marker-alt"></i> La Pampa 1872. Belgrano, CABA</li>
+                      <li><i class="fas fa-phone"></i> 4773-0000</li>
+                      <li><i class="fas fa-envelope-open-text"></i> mateamate@gmail.com</li>
+                  </ul>
+              </div>
+          </div>
+  
+      </div>
+  
+    </section>
+      <!-- ends form -->
     </main>
     <!-- starts footer -->
     <footer class="footer">
