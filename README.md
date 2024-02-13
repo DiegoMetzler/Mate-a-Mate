@@ -7,19 +7,13 @@ Gracias a la profe Lau y a los tutores Jonatan y Julieta por el aprendizaje y po
 Mi trabajo se basa en una pagina web de ventas de productos de mates, ya que soy muy fanatico y lo consumo todos los dias. Paso a describirles las caracteristicas del mismo.
 
 Tecnologías utilizadas:
-HTML5
-CSS
-SASS
-Node.js
-Bootstrap
-Animations
+HTML5, CSS, SASS, Node.js, Bootstrap, Animations.
 
 Controlador de versiones:
-Git
-GitHub
+Git y GitHub.
 
 Herramienta de desarrollo:
-Visual Studio Code
+Visual Studio Code.
 
 Plataforma de despliegue:
-Vercel
+Vercel.
