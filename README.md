@@ -17,3 +17,5 @@ Visual Studio Code.
 
 Plataforma de despliegue:
 Vercel.
+
+LINKS: https://github.com/DiegoMetzler/Mate-a-Mate/deployments ; https://diegometzler.github.io/Mate-a-Mate/ ; https://vercel.com/diego-metzlers-projects/mate-a-mate/BtfdkpAEWQchoXbTTVP1hMmxq91N
